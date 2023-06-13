@@ -1,31 +1,42 @@
 Data Wrangling Class
 ====================
+# Guessing Game
 
-# Version Control with Git in R
+Welcome to the Guessing Game! This simple console-based game will challenge you to guess a randomly generated number between 1 and 100.
 
-Welcome to the **Version Control with Git in R** project! This project aims to demonstrate the fundamentals of version control using Git within the R programming language.
+## How to Play
 
-## Overview
+1. Run the R script `Exemplo.R`.
+2. You will be presented with a welcome message and informed that a number between 1 and 100 has been chosen for you to guess.
+3. Enter your guess when prompted, making sure it falls within the range of 1 to 100.
+4. The game will provide feedback on your guess. If your guess is too low, it will notify you to try a higher number. If your guess is too high, it will notify you to try a lower number.
+5. Continue guessing until you find the correct number. When you guess the correct number, the game will congratulate you and display the number of attempts you made.
+6. The game will then end.
 
-Version control is a crucial aspect of software development that allows you to track and manage changes to your codebase over time. Git, a widely used version control system, provides a robust framework for collaboration, code sharing, and project management.
+## Example Gameplay
 
-In this project, we explore the basic concepts and workflow of version control using Git through an interactive R script. The script showcases the usage of Git commands to create and initialize a repository, add files, make changes, create branches, merge branches, and more. The accompanying console output provides step-by-step explanations of each command, making it easy to follow along and understand.
+Welcome to the Guessing Game!
+I've chosen a number between 1 and 100.
+Can you guess the number?
 
-## Repository Contents
+Enter your guess (1-100): 50
+Too low! Try again.
 
-- `Exemplo.R`: The R script that demonstrates the usage of Git commands for version control in R.
+Enter your guess (1-100): 75
+Too high! Try again.
 
-## Getting Started
+Enter your guess (1-100): 60
+Too high! Try again.
 
-To run the code and explore the Git commands, follow these steps:
+Enter your guess (1-100): 55
+Too low! Try again.
 
-1. Make sure you have Git installed on your system.
-2. Clone this repository to your local machine using the command: `git clone <https://github.com/barbosaadriano/dsa-wrangling-class.git> version-control-with-git-in-r`.
-3. Navigate to the project directory: `cd version-control-with-git-in-r`.
-4. Run the R script: `Rscript Exemplo.R`.
-5. Observe the console output to understand the concepts and commands used in Git version control.
+Enter your guess (1-100): 58
 
-Feel free to modify the script or experiment with different Git commands to further explore version control in R.
+Congratulations! You guessed the correct number.
+Number of attempts: 5
+
+
 
 ## Dependencies
 
