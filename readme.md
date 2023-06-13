@@ -6,7 +6,7 @@ Welcome to the Guessing Game! This simple console-based game will challenge you 
 
 ## How to Play
 
-1. Run the R script `guessing_game.R`.
+1. Run the R script `Exemplo.R`.
 2. You will be presented with a welcome message and informed that a number between 1 and 100 has been chosen for you to guess.
 3. Enter your guess when prompted, making sure it falls within the range of 1 to 100.
 4. The game will provide feedback on your guess. If your guess is too low, it will notify you to try a higher number. If your guess is too high, it will notify you to try a lower number.
