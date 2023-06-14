@@ -1,41 +1,21 @@
 Data Wrangling Class
 ====================
-# Guessing Game
+# Hash Game
 
-Welcome to the Guessing Game! This simple console-based game will challenge you to guess a randomly generated number between 1 and 100.
+The Hash Game is a console-based game where two players take turns marking cells in a 3x3 grid. The goal is to be the first player to form a horizontal, vertical, or diagonal line with their own mark (either 'X' or 'O').
 
 ## How to Play
 
-1. Run the R script `Exemplo.R`.
-2. You will be presented with a welcome message and informed that a number between 1 and 100 has been chosen for you to guess.
-3. Enter your guess when prompted, making sure it falls within the range of 1 to 100.
-4. The game will provide feedback on your guess. If your guess is too low, it will notify you to try a higher number. If your guess is too high, it will notify you to try a lower number.
-5. Continue guessing until you find the correct number. When you guess the correct number, the game will congratulate you and display the number of attempts you made.
-6. The game will then end.
+1. Run the game code in an R environment or console.
+2. The game will display an empty 3x3 grid, numbered from 1 to 9.
+3. Players take turns making moves by entering a number between 1 and 9, corresponding to the position they want to mark.
+4. The first player will use 'X', and the second player (computer) will use 'O'.
+5. After each move, the updated grid will be displayed.
+6. The game continues until one player forms a line of their marks horizontally, vertically, or diagonally, or until the grid is full, resulting in a draw.
+7. If a player wins, the game will display a victory message.
+8. If the game ends in a draw, a draw message will be shown.
 
-## Example Gameplay
-
-Welcome to the Guessing Game!
-I've chosen a number between 1 and 100.
-Can you guess the number?
-
-Enter your guess (1-100): 50
-Too low! Try again.
-
-Enter your guess (1-100): 75
-Too high! Try again.
-
-Enter your guess (1-100): 60
-Too high! Try again.
-
-Enter your guess (1-100): 55
-Too low! Try again.
-
-Enter your guess (1-100): 58
-
-Congratulations! You guessed the correct number.
-Number of attempts: 5
-
+Have fun playing the Hash Game!
 
 
 ## Dependencies
@@ -59,9 +39,6 @@ We welcome any suggestions, bug reports, or pull requests to enhance this projec
 This project is licensed under the [MIT License](LICENSE).
 
 ---
-
-We hope this project provides you with a solid understanding of version control with Git in R. Happy coding!
-
 If you have any questions or need further assistance, please don't hesitate to reach out.
 
 *This project is maintained by Barbosa Adriano.*
